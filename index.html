@@ -23,9 +23,9 @@
     </head>
     <body>
         <div id="tracker">
-            <noscript>
+          <!--  <noscript>
                 <img src="http://chitoku.jp/lunalys/analyzer/write.php?guid=ON&amp;act=img" width="0" height="0" alt="">
-            </noscript>
+            </noscript> -->
         </div>
         <nav class="navbar navbar-violet navbar-fixed-top" role="navigation">
             <div id="statusbar"></div>
@@ -157,7 +157,7 @@
                         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                         <h4 class="modal-title">ツイート登録</h4>
                     </div>
-                    <form id="new-record-form" action="http://api.recotw.black/1/tweet/record_tweet" method="POST" class="form-horizontal" role="form">
+                    <form id="new-record-form" action="https://api.recotw.hinaloe.net/1/tweet/record_tweet" method="POST" class="form-horizontal" role="form">
                         <div class="modal-body">
                             <div class="form-group url-input-area has-feedback">
                                 <label class="col-sm-2 control-label">ツイート</label>
@@ -236,7 +236,7 @@
         <script src="./bower_components/jQuery-ajaxTransport-XDomainRequest/jQuery.XDomainRequest.js"></script>
         <script src="./lib/js/libstring.js"></script>
         <!-- endbuild -->
-        <script src="http://chitoku.jp/lunalys/analyzer/tracker.js"></script>
+        <!--        <script src="http://chitoku.jp/lunalys/analyzer/tracker.js"></script>-->
         <script src="https://www.google.com/jsapi"></script>
         <!-- build:js js/recotw.min.js -->
         <script src="./dev/js/main.js"></script>
